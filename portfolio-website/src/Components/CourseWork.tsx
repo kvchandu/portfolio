@@ -17,7 +17,7 @@ function CourseWork(props: Props) {
       <h6 className="ms-5" onClick={handleClick}>
         {props.specialization}
       </h6>
-      {open && <div className="ms-5">{props.children}</div>}
+      {open && <div className="ms-5 ">{props.children}</div>}
     </>
   );
 }
