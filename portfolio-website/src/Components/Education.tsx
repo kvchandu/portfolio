@@ -104,7 +104,7 @@ function Education() {
           </div>
           <div className="university mt-4 row">
             <h4 className="ms-4 font-weight-bold">Digital Factory</h4>
-            <h5 className="ms-auto me-4">May 2019 - August - 2019</h5>
+            <h5 className="ms-auto me-4">May 2019 - August 2019</h5>
           </div>
           <div className="row">
             <h4 className="ms-4">Android Developer Intern</h4>
@@ -126,6 +126,73 @@ function Education() {
               activity tracking.
             </p>
           </div>
+        </div>
+        <div className="sectionHeader mt-5">
+          <h3 className="ms-4">RESEARCH EXPERIENCE</h3>
+        </div>
+
+        <div className="university mt-4 row">
+          <h4 className="ms-4 font-weight-bold">
+            Virtual Physical Therapist - Dr. Sujit Dey
+          </h4>
+          <h5 className="ms-auto me-4">June 2023 - Present</h5>
+        </div>
+        <div className="row">
+          <p style={{ width: "90%" }} className="ms-5 me-5">
+            I'm currently involved in a research study focused on creating a
+            remote training and recommendation system for physical therapy
+            patients. The project aims to use a webcam to record patient
+            exercises, then employ computer vision techniques to analyze the
+            form and offer real-time feedback. Our current exploration includes
+            the use of 3D pose estimation models for skeletonization, which will
+            generate patient pose movements during exercise. Additionally, we
+            are investigating vision-language models, utilizing the 3D pose
+            information to critique exercises and using a Language Model like
+            GPT to deliver suitable real-time feedback to the user.
+          </p>
+        </div>
+
+        <div className="university mt-4 row">
+          <h4 className="ms-4 font-weight-bold">
+            Prostate Cancer Research - Dr. Tyler Seibert
+          </h4>
+          <h5 className="ms-auto me-4">June 2023 - Present</h5>
+        </div>
+        <div className="row">
+          <p style={{ width: "90%" }} className="ms-5 me-5">
+            In the Dr.Seibert's lab breakthrough research is being conducted on
+            using diffusion MRI images to better detect Prostate cancer to
+            enable Radiologists to better understand tumors and Oncologists to
+            better treat the disease. My role in the lab was to use diffusion
+            MRI images of the prostate and use segmentation models like the
+            U-Net to segment the Urethra portion of an MRI. Being able to
+            distinguish urethra from the prostate would help the doctors during
+            surgery and biopsy to better treat the tumor in the prostate while
+            not damaging or interfering with the urethra.
+          </p>
+        </div>
+        <div className="university mt-4 row">
+          <h4 className="ms-4 font-weight-bold">
+            Wildbook Project - Dr. Tanya Berger-Wolf
+          </h4>
+          <h5 className="ms-auto me-4">May 2017 - August 2020</h5>
+        </div>
+        <div className="row">
+          <p style={{ width: "90%" }} className="ms-5 me-5">
+            During my tenure as a research assistant with the Wildbook Project,
+            our goal was to utilize computer vision techniques to build an
+            animal recognition software, aiding studies on wildlife populations
+            and migration patterns. My key role involved creating a NoSQL data
+            pipeline to collate wildlife images from popular platforms like
+            Flickr and Bing. A geotag filtration system was incorporated to
+            exclude images of captive animals, ensuring only wildlife data was
+            processed. The acquired images were preprocessed for use in neural
+            networks, helping in distinct animal identification. We then
+            employed the well-established 'mark-recapture' method, a technique
+            prevalent in biology, to estimate wildlife populations. Remarkably,
+            we attained a 90% accuracy rate in predicting Reticulated Giraffes
+            and Humpback whales populations solely based on social media images.
+          </p>
         </div>
       </div>
     </>
