@@ -6,7 +6,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -31,7 +31,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -60,7 +60,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -87,7 +87,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -113,7 +113,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -143,7 +143,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="src/assets/react.svg"
+              src="assets/react.svg"
               className="img-fluid rounded-start"
               style={{ width: "100px", height: "100px" }}
             />
@@ -170,3 +170,4 @@ function Projects() {
 }
 
 export default Projects;
+/
