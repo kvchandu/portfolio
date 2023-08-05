@@ -20,7 +20,10 @@ function Projects() {
                 MaskRCNN for object segmentation and GANs for inpainting.
                 Implemented UI using Streamlit.
               </p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://github.com/kvchandu/Instance-Eraser"
+                className="btn btn-primary"
+              >
                 Github
               </a>
             </div>
@@ -48,7 +51,10 @@ function Projects() {
                 enabling seamless marshaling and unmarshaling of user upload and
                 download operations.
               </p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://github.com/kvchandu/Scalable-File-Management-Sytem"
+                className="btn btn-primary"
+              >
                 Github
               </a>
             </div>
@@ -75,9 +81,9 @@ function Projects() {
                 Models and Latent Factor Models to predict the likelihood and
                 expected playtime for each game.
               </p>
-              <a href="#" className="btn btn-primary">
+              {/* <a href="#" className="btn btn-primary">
                 Github
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -101,7 +107,10 @@ function Projects() {
                 in live online chess games, with CNNs achieving over 95\%
                 accuracy in piece identification across multiple design themes.
               </p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://github.com/kvchandu/bestchessmove"
+                className="btn btn-primary"
+              >
                 Github
               </a>
             </div>
@@ -131,7 +140,10 @@ function Projects() {
                 exploring and reconstructing RAFT-S, this repository offers
                 valuable insights into the inner workings of the RAFT framework.
               </p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://github.com/kvchandu/Optical-Flow-prediction-using-RAFTS"
+                className="btn btn-primary"
+              >
                 Github
               </a>
             </div>
@@ -158,9 +170,9 @@ function Projects() {
                 curate a specific dataset for finetuning and evaluation
                 purposes.
               </p>
-              <a href="#" className="btn btn-primary">
+              {/* <a href="#" className="btn btn-primary">
                 Github
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
