@@ -19,3 +19,11 @@ body{
 .degree h5{
   width: auto;
 }
+
+.profile-img {
+  height: 300px; /* Or any other size you want */
+}
+
+.header-name {
+  font-size: 3em; /* Or any other size you want */
+}
