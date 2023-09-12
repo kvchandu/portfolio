@@ -1,3 +1,5 @@
+import Button from "@mui/material/Button";
+
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">

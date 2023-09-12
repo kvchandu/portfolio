@@ -27,3 +27,42 @@ body{
 .header-name {
   font-size: 3em; /* Or any other size you want */
 }
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.image.selected {
+  border-color: blue;
+}
+
+.bullet-points {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.tableContainer {
+  width: 60%;
+}
+
+.table-row{
+  background-color: rgb(225, 225, 225);
+}
+
+.image-grid {
+  background-color: rgb(80, 80, 80);
+}
+
+.image-grid.selected{
+  background-color: rgb(0, 0, 0)!important;
+}
+
+/* Change color when hovered */
+.image-grid:hover {
+  background-color: grey;
+}

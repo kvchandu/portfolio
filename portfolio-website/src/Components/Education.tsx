@@ -1,22 +1,55 @@
+import { useState } from "react";
 import CourseWork from "./CourseWork";
+import UCSD from "./UCSD";
+import UIC from "./UIC";
 function Education() {
+  const [isSelected, setIsSelected] = useState(true);
+  const [isIndustrySelected, setIsIndustrySelected] = useState(true);
   return (
     <>
       <div>
         <div className="sectionHeader mt-4">
           <h3 className="ms-4">EDUCATION</h3>
         </div>
-        <div className="university mt-4 row">
+
+        <div className="tableContainer mx-auto">
+          <div className="row table-row border">
+            <div className="col-md-3 table-column border">
+              <div
+                onClick={() => setIsSelected(!isSelected)}
+                className={
+                  "row border table-row image-grid " +
+                  (isSelected ? "selected" : "not-selected")
+                }
+              >
+                <img src="src/assets/UCSD_Seal.png" />
+              </div>
+              <div
+                onClick={() => setIsSelected(!isSelected)}
+                className={
+                  "row table-row border image-grid " +
+                  (isSelected ? "not-selected" : "selected")
+                }
+              >
+                <img src="src/assets/uic.png" />
+              </div>
+            </div>
+            <div className="col-md-9 table-column border">
+              {isSelected ? <UCSD /> : <UIC />}
+            </div>
+          </div>
+        </div>
+        {/* <div className="university mt-4 row">
           <h4 className="ms-4 font-weight-bold">
             University of California, San Diego
           </h4>
           <h5 className="ms-auto me-4">Fall 2022 - Fall 2023</h5>
-        </div>
-        <div className="degree row">
+        </div> */}
+        {/* <div className="degree row">
           <h5 className="ms-5">Master of Science in Computer Science</h5>
           <h5 className="ms-auto me-5">GPA: 3.925</h5>
-        </div>
-        <div className="coursework row">
+        </div> */}
+        {/* <div className="coursework row">
           <CourseWork specialization="Specialization: Artificial Intelligence/Computer Vision (Click to Expand for relevant Coursework)">
             <div className="ms-3">
               <ul>
@@ -33,11 +66,10 @@ function Education() {
                 <li>AI: Probabilistic Reasoning and Learning</li>
               </ul>
             </div>
-            {/* <p className="ms-3">test</p> */}
           </CourseWork>
-        </div>
+        </div> */}
 
-        <div className="university mt-4 row">
+        {/* <div className="university mt-4 row">
           <h4 className="ms-4 font-weight-bold">
             University of Illinois, Chicago
           </h4>
@@ -64,16 +96,43 @@ function Education() {
                 <li>Computer Architecture</li>
               </ul>
             </div>
-            {/* <p className="ms-3">test</p> */}
           </CourseWork>
-        </div>
+        </div> */}
       </div>
 
       <div>
         <div className="sectionHeader mt-5">
           <h3 className="ms-4">INDUSTRY EXPERIENCE</h3>
 
-          <div className="university mt-4 row">
+          <div className="tableContainer mx-auto">
+            <div className="row table-row border">
+              <div className="col-md-3 table-column border">
+                <div
+                  onClick={() => setIsIndustrySelected(!isIndustrySelected)}
+                  className={
+                    "row border table-row image-grid " +
+                    (isIndustrySelected ? "selected" : "not-selected")
+                  }
+                >
+                  <img src="src/assets/CADA.png" />
+                </div>
+                <div
+                  onClick={() => setIsIndustrySelected(!isIndustrySelected)}
+                  className={
+                    "row table-row border image-grid " +
+                    (isIndustrySelected ? "not-selected" : "selected")
+                  }
+                >
+                  <img src="src/assets/digital-factory.png" />
+                </div>
+              </div>
+              <div className="col-md-9 table-column border">
+                {isIndustrySelected ? <UCSD /> : <UIC />}
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="university mt-4 row">
             <h4 className="ms-4 font-weight-bold">University of Illinois</h4>
             <h5 className="ms-auto me-4">August 2020 - May 2022</h5>
           </div>
@@ -125,7 +184,7 @@ function Education() {
               experience honed my skills in application development and user
               activity tracking.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="sectionHeader mt-5">
           <h3 className="ms-4">RESEARCH EXPERIENCE</h3>
