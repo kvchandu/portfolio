@@ -2,6 +2,8 @@ import { useState } from "react";
 import CourseWork from "./CourseWork";
 import UCSD from "./UCSD";
 import UIC from "./UIC";
+import CADA from "./CADA";
+import DigitalFactory from "./DigitalFactory";
 function Education() {
   const [isSelected, setIsSelected] = useState(true);
   const [isIndustrySelected, setIsIndustrySelected] = useState(true);
@@ -114,7 +116,7 @@ function Education() {
                     (isIndustrySelected ? "selected" : "not-selected")
                   }
                 >
-                  <img src="src/assets/CADA.png" />
+                  <img src="src/assets/uic.png" />
                 </div>
                 <div
                   onClick={() => setIsIndustrySelected(!isIndustrySelected)}
@@ -127,7 +129,7 @@ function Education() {
                 </div>
               </div>
               <div className="col-md-9 table-column border">
-                {isIndustrySelected ? <UCSD /> : <UIC />}
+                {isIndustrySelected ? <CADA /> : <DigitalFactory />}
               </div>
             </div>
           </div>
