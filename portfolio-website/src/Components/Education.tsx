@@ -4,6 +4,8 @@ import UCSD from "./UCSD";
 import UIC from "./UIC";
 import CADA from "./CADA";
 import DigitalFactory from "./DigitalFactory";
+import VirtualPT from "./VirtualPT";
+import WildBook from "./Wildbook";
 function Education() {
   const [isSelected, setIsSelected] = useState(true);
   const [isIndustrySelected, setIsIndustrySelected] = useState(true);
@@ -192,7 +194,35 @@ function Education() {
           <h3 className="ms-4">RESEARCH EXPERIENCE</h3>
         </div>
 
-        <div className="university mt-4 row">
+        <div className="tableContainer mx-auto">
+          <div className="row table-row border">
+            <div className="col-md-3 table-column border">
+              <div
+                onClick={() => setIsIndustrySelected(!isIndustrySelected)}
+                className={
+                  "row border table-row image-grid " +
+                  (isIndustrySelected ? "selected" : "not-selected")
+                }
+              >
+                <img src="src/assets/ucsandiego.png" />
+              </div>
+              <div
+                onClick={() => setIsIndustrySelected(!isIndustrySelected)}
+                className={
+                  "row table-row border image-grid " +
+                  (isIndustrySelected ? "not-selected" : "selected")
+                }
+              >
+                <img src="src/assets/wildbook_logo.png" />
+              </div>
+            </div>
+            <div className="col-md-9 table-column border">
+              {isIndustrySelected ? <VirtualPT /> : <WildBook />}
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="university mt-4 row">
           <h4 className="ms-4 font-weight-bold">
             Virtual Physical Therapist - Dr. Sujit Dey
           </h4>
@@ -254,7 +284,7 @@ function Education() {
             we attained a 90% accuracy rate in predicting Reticulated Giraffes
             and Humpback whales populations solely based on social media images.
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
