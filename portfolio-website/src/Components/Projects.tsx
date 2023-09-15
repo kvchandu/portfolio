@@ -4,14 +4,14 @@ function Projects() {
       <h3 className="mt-4 ms-4">PROJECTS</h3>
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/eraser.webp"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">Instance Eraser</h5>
               <p className="card-text">
@@ -32,14 +32,14 @@ function Projects() {
       </div>
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/dropbox.png"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">SurfStore</h5>
               <p className="card-text">
@@ -64,14 +64,14 @@ function Projects() {
 
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/steam.png"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">Steam Recommendation System</h5>
               <p className="card-text">
@@ -91,14 +91,14 @@ function Projects() {
 
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/chess.png"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">Chess Move Suggestor</h5>
               <p className="card-text">
@@ -120,14 +120,14 @@ function Projects() {
 
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/flow.jpg"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">Optical Flow Predictions</h5>
               <p className="card-text">
@@ -153,14 +153,14 @@ function Projects() {
 
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              src="assets/react.svg"
+              src="assets/translation.png"
               className="img-fluid rounded-start"
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="card-body ms-4">
               <h5 className="card-title">Code Translation</h5>
               <p className="card-text">

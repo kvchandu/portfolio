@@ -26,7 +26,7 @@ function Education() {
                   (isSelected ? "selected" : "not-selected")
                 }
               >
-                <img src="src/assets/UCSD_Seal.png" />
+                <img src="assets/UCSD_Seal.png" />
               </div>
               <div
                 onClick={() => setIsSelected(!isSelected)}
@@ -35,7 +35,7 @@ function Education() {
                   (isSelected ? "not-selected" : "selected")
                 }
               >
-                <img src="src/assets/uic.png" />
+                <img src="assets/uic.png" />
               </div>
             </div>
             <div className="col-md-9 table-column border">
@@ -118,7 +118,7 @@ function Education() {
                     (isIndustrySelected ? "selected" : "not-selected")
                   }
                 >
-                  <img src="src/assets/uic.png" />
+                  <img src="assets/uic.png" />
                 </div>
                 <div
                   onClick={() => setIsIndustrySelected(!isIndustrySelected)}
@@ -127,7 +127,7 @@ function Education() {
                     (isIndustrySelected ? "not-selected" : "selected")
                   }
                 >
-                  <img src="src/assets/digital-factory.png" />
+                  <img src="assets/digital-factory.png" />
                 </div>
               </div>
               <div className="col-md-9 table-column border">
@@ -204,7 +204,7 @@ function Education() {
                   (isIndustrySelected ? "selected" : "not-selected")
                 }
               >
-                <img src="src/assets/ucsandiego.png" />
+                <img src="assets/ucsandiego.png" />
               </div>
               <div
                 onClick={() => setIsIndustrySelected(!isIndustrySelected)}
@@ -213,7 +213,7 @@ function Education() {
                   (isIndustrySelected ? "not-selected" : "selected")
                 }
               >
-                <img src="src/assets/wildbook_logo.png" />
+                <img src="assets/wildbook_logo.png" />
               </div>
             </div>
             <div className="col-md-9 table-column border">

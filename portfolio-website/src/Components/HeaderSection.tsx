@@ -6,7 +6,7 @@ function HeaderSection() {
       <div className="row d-flex align-items-center">
         <div className="col-3 text-right">
           <img
-            src="assets/portrait.png"
+            src="assets/header.png"
             alt="Your Name"
             className="img-fluid profile-img"
           />
