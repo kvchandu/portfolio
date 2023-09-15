@@ -5,7 +5,8 @@ import UIC from "./UIC";
 import CADA from "./CADA";
 import DigitalFactory from "./DigitalFactory";
 import VirtualPT from "./VirtualPT";
-import WildBook from "./Wildbook";
+import WildBook from "./WildBook";
+
 function Education() {
   const [isSelected, setIsSelected] = useState(true);
   const [isIndustrySelected, setIsIndustrySelected] = useState(true);
