@@ -75,3 +75,23 @@ body{
 .column-caption{
   text-align: center;
 }
+
+.list-group-horizontal .list-group-item {
+  background: #b1bea7;
+  transition: background 0.2s ease-in-out;
+}
+
+.list-group-horizontal .list-group-item:hover {
+  background: #237623;
+  
+}
+
+.list-group-flush .list-group-item {
+  background: #b1bea7;
+  transition: background 0.2s ease-in-out;
+}
+
+.list-group-flush .list-group-item:hover {
+  background: #237623;
+  
+}
