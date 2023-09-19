@@ -22,10 +22,12 @@ body{
 
 .profile-img {
   height: 300px; /* Or any other size you want */
+  border-radius: 50%;
 }
 
 .header-name {
   font-size: 3em; /* Or any other size you want */
+  margin-bottom: 20px;
 }
 
 .image {
@@ -94,4 +96,8 @@ body{
 .list-group-flush .list-group-item:hover {
   background: #237623;
   
+}
+
+.header-content{
+  text-align: left;
 }
