@@ -35,7 +35,7 @@ function HeaderSection() {
           </p>
         </div>
         <div className="col-2 text-left">
-          <ul className="list-group">
+          <ul className="list-group contact-info">
             <li className="list-group-item border-top-0 border-bottom-0 border-left-0">
               kchandu@ucsd.edu
             </li>

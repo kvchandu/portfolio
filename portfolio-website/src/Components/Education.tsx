@@ -18,8 +18,8 @@ function Education() {
         </div>
 
         <div className="tableContainer mx-auto">
-          <div className="row table-row border">
-            <div className="col-md-3 table-column border">
+          <div className="row table-row ">
+            <div className="col-md-3 table-column ">
               <div
                 onClick={() => setIsSelected(!isSelected)}
                 className={
@@ -39,7 +39,7 @@ function Education() {
                 <img src="assets/uic.png" />
               </div>
             </div>
-            <div className="col-md-9 table-column border">
+            <div className="col-md-9 table-column table-content">
               {isSelected ? <UCSD /> : <UIC />}
             </div>
           </div>
@@ -131,7 +131,7 @@ function Education() {
                   <img src="assets/digital-factory.png" />
                 </div>
               </div>
-              <div className="col-md-9 table-column border">
+              <div className="col-md-9 table-column border table-content">
                 {isIndustrySelected ? <CADA /> : <DigitalFactory />}
               </div>
             </div>
@@ -217,7 +217,7 @@ function Education() {
                 <img src="assets/wildbook_logo.png" />
               </div>
             </div>
-            <div className="col-md-9 table-column border">
+            <div className="col-md-9 table-column border table-content">
               {isIndustrySelected ? <VirtualPT /> : <WildBook />}
             </div>
           </div>
