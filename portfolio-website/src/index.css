@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
 body{
   font-family: 'Raleway', sans-serif;
   background-color: #EAD2AC;
+}
+
+.header-section {
+  height: 100vh;
+}
+
+.header-name {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 113%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px #000;
+  color: rgba(255,255,255,.9333333333);
 }
 
 .contact-info .list-group-item{

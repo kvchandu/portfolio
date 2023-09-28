@@ -2,7 +2,7 @@ import React from "react";
 
 function HeaderSection() {
   return (
-    <div className="HeaderSection mt-5 container-fluid">
+    <div className="header-section mt-5 container-fluid">
       <div className="row d-flex align-items-center">
         <div className="col-3 text-right">
           <img
