@@ -7,7 +7,7 @@ body{
 }
 
 .header-section {
-  height: 100vh;
+  height: 90vh;
 }
 
 .header-name {
@@ -55,6 +55,10 @@ body{
   font-size: 30px;
   left: 0;
   animation: typing 3s  infinite;
+}
+
+.header-content-wrapper {
+  margin-top: 75px;
 }
 
 .wrapper {
