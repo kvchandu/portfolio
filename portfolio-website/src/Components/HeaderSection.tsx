@@ -13,7 +13,7 @@ function HeaderSection() {
         </div>
         <div className="col-7 text-center">
           <h1 className="header-name">Krishna Vamsi Chandu</h1>
-          <div className="wrapper">
+          {/* <div className="wrapper">
             <ul className="dynamic-text">
               <li>
                 <span>Machine Learning Engineer</span>
@@ -28,7 +28,7 @@ function HeaderSection() {
                 <span>User Interface Designer</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="col-2 text-left">
