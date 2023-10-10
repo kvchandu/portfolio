@@ -18,9 +18,10 @@ body{
 
 .header-name {
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 1000!important;
   line-height: 113%;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
+
   text-transform: uppercase;
   text-shadow: 0px 0px 20px #000;
   color: rgba(25, 124, 236, 0.933);
