@@ -34,10 +34,10 @@ function HeaderSection() {
         <div className="col-2 text-left">
           <ul className="list-group contact-info">
             <li className="list-group-item border-top-0 border-bottom-0 border-left-0">
-              kchandu@ucsd.edu
+              <a href="https://linkedin.com/kchand23">kchandu@ucsd.edu</a>
             </li>
             <li className="list-group-item border-top-0 border-bottom-0">
-              224-714-8908
+              <a href="https://linkedin.com/kchand23">224-714-8908</a>
             </li>
             <li className="list-group-item border-top-0 border-bottom-0">
               <a
@@ -52,26 +52,28 @@ function HeaderSection() {
         </div>
       </div>
       <div className="row justify-content-center header-content-wrapper align-items-center flex-grow-1">
-        <p className="header-content">
-          Welcome to my portfolio! With over 3 years of experience in Full Stack
-          Development, I specialize in crafting software that's not just
-          functional but also scales seamlessly, prioritizes security, and
-          operates with efficiency.{" "}
-        </p>
-        <p className="header-content">
-          I have a passion for building projects that leverage a variety of
-          frameworks, tools, and AI advancements, allowing me to explore my
-          creativity while delivering practical solutions. Beyond coding, I'm an
-          enthusiastic researcher in Computer Vision and Machine Learning. My
-          dedication lies in applying the latest developments in these domains
-          to address real-world challenges.
-        </p>
-        <p className="header-content">
-          {" "}
-          Let's connect and journey together through the exciting realms of
-          software and innovation. Feel free to get in touch using the contact
-          information below.
-        </p>
+        <div className="header-content-para">
+          <p className="header-content">
+            Welcome to my portfolio! With over 3 years of experience in Full
+            Stack Development, I specialize in crafting software that's not just
+            functional but also scales seamlessly, prioritizes security, and
+            operates with efficiency.{" "}
+          </p>
+          <p className="header-content">
+            I have a passion for building projects that leverage a variety of
+            frameworks, tools, and AI advancements, allowing me to explore my
+            creativity while delivering practical solutions. Beyond coding, I'm
+            an enthusiastic researcher in Computer Vision and Machine Learning.
+            My dedication lies in applying the latest developments in these
+            domains to address real-world challenges.
+          </p>
+          <p className="header-content">
+            {" "}
+            Let's connect and journey together through the exciting realms of
+            software and innovation. Feel free to get in touch using the contact
+            information below.
+          </p>
+        </div>
       </div>
     </div>
   );

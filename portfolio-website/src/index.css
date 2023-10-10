@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
+
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #EAD2AC;
+  background-color: #2b2a27;
+  color:rgba(25, 124, 236, 0.933);
 }
 
 .header-section {
   height: 90vh;
+}
+
+.header-content-para{
+  width: 80%;
 }
 
 .header-name {
@@ -17,7 +23,7 @@ body{
   letter-spacing: 5px;
   text-transform: uppercase;
   text-shadow: 0px 0px 20px #000;
-  color: rgba(255,255,255,.9333333333);
+  color: rgba(25, 124, 236, 0.933);
 }
 
 .dynamic-text{
@@ -76,7 +82,7 @@ body{
   }
 }
 .contact-info .list-group-item{
-  background-color: #EAD2AC;
+  background-color: #2b2a27;
 }
 
 .tableContainer .table-content {
