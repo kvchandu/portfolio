@@ -13,6 +13,21 @@ body{
   height: 100vh;
 }
 
+/* .sectionHeader {
+  
+} */
+
+.sectionHeader {
+  border:1px solid black;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbc4b9;
+  margin-bottom: 40px;
+}
+
+
 .header-content-para{
   width: 80%;
 }

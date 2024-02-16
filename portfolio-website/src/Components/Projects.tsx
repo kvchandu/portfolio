@@ -1,7 +1,9 @@
 function Projects() {
   return (
     <>
-      <h3 className="mt-4 ms-4">PROJECTS</h3>
+      <div className="sectionHeader mt-5">
+        <h3 className="ms-4">PROJECTS</h3>
+      </div>
       <div className="card  mx-auto" style={{ width: "90%" }}>
         <div className="row g-0">
           <div className="col-md-3">
