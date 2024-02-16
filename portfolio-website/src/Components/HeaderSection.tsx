@@ -3,15 +3,15 @@ import React from "react";
 function HeaderSection() {
   return (
     <div className="header-section mt-5 container-fluid">
-      <div className="row d-flex align-items-center">
-        <div className="col-3 text-right">
+      <div className="row d-flex align-items-center header-row">
+        {/* <div className="col-3 text-right">
           <img
             src="assets/header.png"
             alt="Your Name"
             className="img-fluid profile-img"
           />
-        </div>
-        <div className="col-7 text-center">
+        </div> */}
+        <div className=" text-center">
           <h1 className="header-name">Krishna Vamsi Chandu</h1>
           {/* <div className="wrapper">
             <ul className="dynamic-text">
@@ -31,7 +31,7 @@ function HeaderSection() {
           </div> */}
         </div>
 
-        <div className="col-2 text-left">
+        {/* <div className="col-2 text-left">
           <ul className="list-group contact-info">
             <li className="list-group-item border-top-0 border-bottom-0 border-left-0">
               <a href="https://linkedin.com/kchand23">kchandu@ucsd.edu</a>
@@ -49,7 +49,7 @@ function HeaderSection() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="row justify-content-center header-content-wrapper align-items-center flex-grow-1">
         <div className="header-content-para">
